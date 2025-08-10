@@ -1,0 +1,3 @@
+{"version": 2, "width": 210, "height": 57, "timestamp": 1754813241, "env": {"SHELL": "/bin/zsh", "TERM": "xterm-ghostty"}}
+[0.00023, "o", "y\r\n"]
+[0.110253, "o", "spawn bash -lc export CODEX_TUI_MAX_WIDTH=100; codex --dangerously-bypass-approvals-and-sandbox\r\r\r\n"]
