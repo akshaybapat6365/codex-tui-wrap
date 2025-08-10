@@ -6,6 +6,14 @@
 [Full SVG](assets/demo.svg)
 
 
+
+![Demo](assets/demo-from-svg.gif)
+
+![Before](assets/demo-from-svg.png)
+
+[Full SVG](assets/demo.svg)
+
+
 # Codex TUI – Word‑Safe Wrapping + Width Cap
 
 This documents and tracks rendering improvements to the OpenAI Codex CLI TUI:
