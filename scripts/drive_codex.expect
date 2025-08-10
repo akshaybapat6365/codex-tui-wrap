@@ -1,0 +1,13 @@
+#!/usr/bin/env expect -f
+set timeout 20
+spawn bash -lc {export CODEX_TUI_MAX_WIDTH=100; codex --dangerously-bypass-approvals-and-sandbox}
+# Wait a bit for UI to initialize
+sleep 2
+send -- "Explain this codebase and list top components."
+send -- "\r"
+sleep 4
+send -- "/status\r"
+sleep 3
+send -- "/quit\r"
+# Give app a moment to exit gracefully
+sleep 2
