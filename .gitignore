@@ -1,0 +1,57 @@
+# Shell/Bash
+*.sh~
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+*.pid
+
+# OS files
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# Environment and config
+.env
+.env.*
+config.json
+credentials.json
+secrets.json
+*.key
+*.pem
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Build/Output
+build/
+dist/
+out/
+
+# Dependencies (if any)
+node_modules/
+vendor/
+
+# Test coverage
+coverage/
+*.gcov
+
+# Archives
+*.tar
+*.tar.gz
+*.zip
+*.7z
+*.rar
